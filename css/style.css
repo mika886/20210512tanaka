@@ -1,0 +1,49 @@
+a{
+text-decoration: none;
+color: inherit;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: navy;
+}
+
+.header-ttl{
+  font-size: 30px;
+  margin: 20px;
+}
+
+.navilist{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navi{
+  padding: 20px;
+  font-weight: bold;
+}
+
+.top{
+  position: relative;
+}
+
+.top_img img{
+  margin: 100px 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.top_comment{
+  position: absolute;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.top_box{
+  background-color: navy;
+  width: 1000px;
+  height: 200px;
+  top: 100px;
+}

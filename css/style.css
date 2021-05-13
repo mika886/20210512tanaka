@@ -25,25 +25,30 @@ color: inherit;
   font-weight: bold;
 }
 
-.top{
-  position: relative;
-}
-
 .top_img img{
   margin: 100px 0 0 auto;
   display: block;
   width: 50%;
+  z-index: 20;
+  position: relative; 
+}
+
+.top_comment_box{
+  position: relative;
 }
 
 .top_comment{
-  position: absolute;
   font-size: 70px;
   font-weight: 500;
+  position: absolute;
+  top:-120px;
 }
 
 .top_box{
+  position: absolute;
   background-color: navy;
-  width: 1000px;
+  width: 1200px;
   height: 200px;
-  top: 100px;
+  z-index: 10;
+  top:-50px;
 }
